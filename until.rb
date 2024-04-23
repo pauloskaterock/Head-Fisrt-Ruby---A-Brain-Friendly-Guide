@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 a = 0
 
 until a > 10

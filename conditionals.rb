@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 if score == 100
   puts 'Perfect!'
 elsif score >= 70

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Get My Number Game
 # Written by: PH
 puts "Welcome to 'Get My Number!'"

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Bird
   def talk
     puts 'Chirp! Chirp!'
