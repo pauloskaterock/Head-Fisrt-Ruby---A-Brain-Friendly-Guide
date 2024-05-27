@@ -1,0 +1,55 @@
+use todas as letras minusculas em nomes de variaveis.
+evite numeros.
+separe as palavras com sublinhados
+    my_rank = 1
+esse estilo é chamado serpente
+
+-------------------------------------------------------------------------------------
+
+deixe os parenteses de fora de uma chamada de metodose não houver argumentos
+
+--------------------------------------------------------------------------------------
+
+é valido usar else e elsif juntamente com unless no ruby:
+
+unless light == "red"
+    puts "Go"
+ else
+    puts "Stop"
+end
+
+Mas é muito dificil de ler, se voce precisar de uma clausula else, utilize if para a clausula principal em seu lugar
+
+if light == "red"
+    puts "Go"
+ else
+    puts "Stop"
+end
+
+-----------------------------------------------------------------------------------
+nome s de metodos devem estar no estiloserpente uma ou mais palavras minusculas separadas por sublinhados
+------------------------------------------------------------------------------------
+
+nomes de classe em ruby devme comecar com uma letra maiuscula seguido por letras minusculas
+
+
+---------------------------------------------------------------------------------------
+
+O nome de um metodo leitor de atributo geralmente deve coincidir com o nome da variavel de instancia a partir da qual ele a le (sem o simbolo @, naturalmente)
+
+
+def tail_length
+    @tail_length
+end
+
+
+
+O mesmo se plica aos metodos gravadores de atributo mas voce deve adicionar um simbolo = ao final do nome
+
+def tail_length=(value)
+    @tail_length = value
+end
+
+-----------------------------------------------------------------------------------------------------
+
+Blocos Ruby que cabem em uma única linha devem ser colocados entre chaves. Blocos que abrangem várias linhas devem ser cercados por do...end. Esta não é a única convenção para formatação de bloco, mas é comum
